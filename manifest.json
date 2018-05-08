@@ -1,0 +1,23 @@
+{
+  "name": "Fold GitHub Files",
+  "version": "1.0",
+  "description": "Fold or Unfold all files in GitHub's compare view.",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/paper-16.png",
+      "32": "icons/paper-32.png",
+      "48": "icons/paper-48.png"
+    }
+  },
+  "permissions": [
+    "declarativeContent",
+    "tabs",
+    "https://github.com/*"
+  ],
+  "manifest_version": 2
+}
