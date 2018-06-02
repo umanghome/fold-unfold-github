@@ -1,6 +1,6 @@
 {
   "name": "Fold GitHub Files",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Fold or Unfold all files in GitHub's compare view.",
   "background": {
     "scripts": ["background.js"],
