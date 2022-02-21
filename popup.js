@@ -4,7 +4,7 @@
  * @return {String}
  */
 function generateCode (bool) {
-  return "document.querySelectorAll('.btn-octicon.p-1.pr-2.js-details-target[aria-expanded=" + bool + "]').forEach(e => e.click());";
+  return "document.querySelectorAll('.btn-octicon.js-details-target[aria-expanded=" + bool + "]').forEach(e => e.click());";
 }
 
 /**
